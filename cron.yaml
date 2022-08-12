@@ -1,0 +1,5 @@
+cron:
+- description: append github data
+  url: /append_data
+  schedule: every 24 hours
+  target: default
