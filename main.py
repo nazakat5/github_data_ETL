@@ -9,7 +9,8 @@ from datetime import datetime, timedelta
 from flask import Flask
 
 # Set the start date of paginating github repositories (today- 1 day)
-# This will load data of last 24 hours 
+# This will load data of last 24 hours
+
 start_date = datetime.today() - timedelta(days=1)
 
 # Get Key File using your Service Accounts and provide path of that file here
